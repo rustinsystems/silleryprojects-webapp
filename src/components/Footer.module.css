@@ -1,0 +1,86 @@
+.footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    padding-top: 4rem;
+}
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.description {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    max-width: 300px;
+    line-height: 1.6;
+}
+
+.navTitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.navLinks,
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.navLinks a,
+.contact span {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    transition: var(--transition-fast);
+}
+
+.navLinks a:hover {
+    color: var(--accent-hover);
+}
+
+.bottomBar {
+    border-top: 1px solid var(--border-color);
+    padding: 2rem 0;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .footerContainer {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .bottomContainer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}

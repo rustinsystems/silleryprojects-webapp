@@ -1,0 +1,126 @@
+.contactSection {
+    background: var(--bg-color);
+}
+
+.contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.sectionSubtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    max-width: 450px;
+}
+
+.detailsGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.detailItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.value {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    transition: var(--transition-fast);
+}
+
+a.value:hover {
+    color: var(--accent-hover);
+}
+
+.form {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.formTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.inputLabel {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.inputField,
+.textareaField {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: var(--transition-fast);
+}
+
+.inputField:focus,
+.textareaField:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+}
+
+.textareaField {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submitBtn {
+    background: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    margin-top: 1rem;
+}
+
+.submitBtn:hover {
+    background: var(--accent-hover);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+    .contactContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .form {
+        padding: 2rem;
+    }
+}
