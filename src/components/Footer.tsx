@@ -7,8 +7,8 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={`container ${styles.footerContainer}`}>
                 <div className={styles.brand}>
-                    <img src="/favicon.webp" alt="Sillery Projects" className={styles.logo} />
-                    <span className={styles.name}>Sillery Projects</span>
+                    <img src="/favicon.webp" alt="Sillery Management Projects" className={styles.logo} />
+                    <span className={styles.name}>Sillery Management Projects</span>
                     <p className={styles.description}>
                         Architecting the future through innovative project management and premier construction strategy.
                     </p>
@@ -29,7 +29,7 @@ export default function Footer() {
 
             <div className={styles.bottomBar}>
                 <div className={`container ${styles.bottomContainer}`}>
-                    <span>&copy; {currentYear} Sillery Projects. All rights reserved.</span>
+                    <span>&copy; {currentYear} Sillery Management Projects. All rights reserved.</span>
                     <span>Directors: MR Solomon, N Solomon, Dr. RM Allie, Z Baker</span>
                 </div>
             </div>

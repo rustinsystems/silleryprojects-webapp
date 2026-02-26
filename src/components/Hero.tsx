@@ -10,7 +10,7 @@ export default function Hero() {
                         <span className="gradient-text">Managing the Future.</span>
                     </h1>
                     <p className={styles.subtitle}>
-                        Sillery Projects delivers premier project management, strategic construction consulting, and robust physical infrastructure solutions for modern developments.
+                        Sillery Management Projects delivers premier project management, strategic construction consulting, and robust physical infrastructure solutions for modern developments.
                     </p>
                     <div className={styles.ctaGroup}>
                         <a href="#contact" className={styles.primaryBtn}>Partner with Us</a>
@@ -18,7 +18,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className={styles.imageWrapper}>
-                    <img src="/SPM LOGO.webp" alt="Sillery Projects Logo" className={styles.heroLogo} />
+                    <img src="/SPM LOGO.webp" alt="Sillery Management Projects Logo" className={styles.heroLogo} />
                     <div className={styles.glowEffect}></div>
                 </div>
             </div>
