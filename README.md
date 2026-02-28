@@ -23,7 +23,7 @@ The website is designed to communicate building excellence and modern developmen
 
 This project was developed by [Rustin Systems](https://rustinsystems.com). 
 
-The site is configured for continuous deployment via Netlify. The production build is mapped to the official domain: `www.silleryprojects.co.za`.
+The site is configured for deployment via Netlify. The production build is mapped to the official domain: `www.silleryprojects.co.za`.
 
 ## License
 
