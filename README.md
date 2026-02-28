@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sillery Management Projects 🏗️
 
-## Getting Started
+A professional, responsive website developed for **Sillery Management Projects**, a firm specializing in project management, strategic construction consulting, and robust physical infrastructure solutions. 
 
-First, run the development server:
+This project serves as the primary digital presence for the business, detailing their core capabilities and providing a streamlined contact point for prospective partners and clients.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website is designed to communicate building excellence and modern development strategies. It features a clean, professional layout tailored to the construction and project management industry.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Core Features
+* **Service Showcase:** Highlights key capabilities including Construction Management, Project Planning & Strategy, and Site Infrastructure Solutions.
+* **Executive Directory:** Displays the executive board (MR Solomon, N Solomon, Dr. RM Allie, Z Baker).
+* **Contact Integration:** Includes a functional contact form and direct links to the official company email and domain.
+* **Responsive Design:** Optimized for viewing across all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+* **Frontend:** Nextjs, Tailwind
+* **Hosting/Deployment:** Netlify
 
-To learn more about Next.js, take a look at the following resources:
+## Development & Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project was developed by [Rustin Systems](https://rustinsystems.com). 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The site is configured for continuous deployment via Netlify. The production build is mapped to the official domain: `www.silleryprojects.co.za`.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/rustinsystems/silleryprojects-webapp/blob/main/LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Architecting the future through innovative project management and premier construction strategy.*
